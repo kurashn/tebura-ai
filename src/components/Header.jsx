@@ -1,0 +1,56 @@
+import React from 'react';
+import { useLanguage } from '../context/LanguageContext';
+
+const Header = () => {
+    const { language, setLanguage, t } = useLanguage();
+    return (
+        <header className="w-full py-4 px-6 md:px-12 bg-background/80 backdrop-blur-sm sticky top-0 z-50">
+            <div className="max-w-[1200px] mx-auto flex justify-between items-center">
+                <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 flex items-center justify-center">
+                        <img src="/teburakun.png" alt="てぶらAIロゴ" className="w-full h-full object-contain drop-shadow-md" />
+                    </div>
+                    <span className="font-bold text-text text-lg tracking-tight">
+                        Tebura AI
+                    </span>
+                </div>
+
+                <div className="flex items-center gap-4">
+                    {/* Language Switcher */}
+                    <div className="flex bg-white/50 rounded-full p-1 border border-primary/20">
+                        <button
+                            onClick={() => setLanguage('ja')}
+                            className={`px-3 py-1 rounded-full text-xs font-bold transition-all ${language === 'ja' ? 'bg-primary text-white shadow-sm' : 'text-text/60 hover:text-primary'}`}
+                        >
+                            JP
+                        </button>
+                        <button
+                            onClick={() => setLanguage('en')}
+                            className={`px-3 py-1 rounded-full text-xs font-bold transition-all ${language === 'en' ? 'bg-primary text-white shadow-sm' : 'text-text/60 hover:text-primary'}`}
+                        >
+                            EN
+                        </button>
+                        <button
+                            onClick={() => setLanguage('th')}
+                            className={`px-3 py-1 rounded-full text-xs font-bold transition-all ${language === 'th' ? 'bg-primary text-white shadow-sm' : 'text-text/60 hover:text-primary'}`}
+                        >
+                            TH
+                        </button>
+                    </div>
+
+                    {/* CTA */}
+                    <nav className="hidden md:block">
+                        <a
+                            href="#contact"
+                            className="bg-primary text-white px-6 py-2 rounded-full font-bold hover:bg-opacity-90 transition-all shadow-sm"
+                        >
+                            {t('header.contact')}
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    );
+};
+
+export default Header;
