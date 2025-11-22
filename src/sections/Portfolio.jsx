@@ -80,7 +80,7 @@ const Portfolio = () => {
                                 <div className="aspect-[4/3] bg-white rounded-2xl shadow-xl border-4 border-white overflow-hidden">
                                     <img
                                         src="/tebura_hero.png"
-                                        alt="てぶらAIホームページのスクリーンショット"
+                                        alt="てぶらホームページのスクリーンショット"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
