@@ -13,20 +13,20 @@ const Hero = () => {
                 {/* Text Content */}
                 <div className="z-10">
                     <FadeIn delay={0.1}>
-                        <div className="inline-block bg-white border border-primary/20 text-primary px-6 py-2 rounded-full text-sm md:text-base font-bold mb-8 shadow-sm">
+                        <div className="inline-block bg-white border border-primary/20 text-primary px-4 md:px-6 py-1.5 md:py-2 rounded-full text-xs md:text-base font-bold mb-6 md:mb-8 shadow-sm">
                             {t('hero.badge')}
                         </div>
                     </FadeIn>
 
                     <FadeIn delay={0.2}>
-                        <h1 className="text-4xl md:text-6xl font-bold leading-snug tracking-tight mb-8 text-text">
+                        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight md:leading-snug tracking-tight mb-6 md:mb-8 text-text">
                             {t('hero.headline_1')}<br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-600 whitespace-nowrap">{t('hero.headline_2')}</span>
                         </h1>
                     </FadeIn>
 
                     <FadeIn delay={0.3}>
-                        <p className="text-text/80 text-lg md:text-xl mb-10 leading-loose max-w-lg">
+                        <p className="text-text/80 text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed md:leading-loose max-w-lg">
                             {t('hero.subtext_1')}<br className="hidden md:block" />
                             {t('hero.subtext_2')}<br />
                             {t('hero.subtext_3')}
@@ -34,36 +34,36 @@ const Hero = () => {
                     </FadeIn>
 
                     <FadeIn delay={0.4}>
-                        <div className="flex flex-col gap-5 mb-10">
+                        <div className="flex flex-col gap-4 md:gap-5 mb-8 md:mb-10">
                             <motion.a
                                 href="#contact"
                                 whileHover={{ scale: 1.02, translateY: -2 }}
                                 whileTap={{ scale: 0.98 }}
-                                className="w-full md:w-auto bg-gradient-to-r from-cta to-emerald-500 text-white text-center py-4 md:py-5 px-6 md:px-10 rounded-2xl font-bold text-lg md:text-xl shadow-xl hover:shadow-2xl transition-all flex items-center justify-center gap-2 md:gap-3 group relative overflow-hidden"
+                                className="w-full md:w-auto bg-gradient-to-r from-cta to-emerald-500 text-white text-center py-5 md:py-5 px-8 md:px-10 rounded-2xl font-bold text-base md:text-lg lg:text-xl shadow-xl hover:shadow-2xl transition-all flex items-center justify-center gap-2 md:gap-3 group relative overflow-hidden min-h-[56px]"
                             >
                                 <div className="absolute top-0 left-0 w-full h-full bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                 <span>{t('hero.cta_button')}</span>
                                 <span className="bg-white text-cta px-2 py-0.5 rounded text-xs md:text-sm font-bold shadow-sm">{t('hero.cta_free')}</span>
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </motion.a>
-                            <p className="text-sm text-center text-text/60 font-medium">
+                            <p className="text-xs md:text-sm text-center text-text/60 font-medium px-2">
                                 {t('hero.cta_note')}
                             </p>
                         </div>
                     </FadeIn>
 
                     <FadeIn delay={0.5}>
-                        <div className="flex flex-wrap gap-4 md:gap-6 text-sm md:text-base text-text/80 font-bold">
-                            <div className="flex items-center gap-2 bg-white/60 px-3 py-1.5 rounded-lg border border-primary/10">
-                                <CheckCircle className="w-5 h-5 text-primary" />
+                        <div className="flex flex-wrap gap-3 md:gap-4 lg:gap-6 text-xs md:text-sm lg:text-base text-text/80 font-bold">
+                            <div className="flex items-center gap-1.5 md:gap-2 bg-white/60 px-2.5 md:px-3 py-1.5 rounded-lg border border-primary/10">
+                                <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-primary flex-shrink-0" />
                                 <span>{t('hero.feature_pc')}</span>
                             </div>
-                            <div className="flex items-center gap-2 bg-white/60 px-3 py-1.5 rounded-lg border border-primary/10">
-                                <CheckCircle className="w-5 h-5 text-primary" />
+                            <div className="flex items-center gap-1.5 md:gap-2 bg-white/60 px-2.5 md:px-3 py-1.5 rounded-lg border border-primary/10">
+                                <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-primary flex-shrink-0" />
                                 <span>{t('hero.feature_delivery')}</span>
                             </div>
-                            <div className="flex items-center gap-2 bg-white/60 px-3 py-1.5 rounded-lg border border-primary/10">
-                                <CheckCircle className="w-4 h-4 text-primary" />
+                            <div className="flex items-center gap-1.5 md:gap-2 bg-white/60 px-2.5 md:px-3 py-1.5 rounded-lg border border-primary/10">
+                                <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-primary flex-shrink-0" />
                                 <span>{t('hero.feature_revision')}</span>
                             </div>
                         </div>
