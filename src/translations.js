@@ -68,6 +68,8 @@ export const translations = {
             meangurls_features: "特徴：商品一覧、料金表示、お問い合わせ機能",
             view_insta: "Instagramを見る",
             view_site: "完成HPを見る",
+            cta_text: "あなたのインスタグラムも、このような素敵なホームページに変わります",
+            cta_button: "無料でプレビューを作成する",
         },
         target: {
             title: "こんな方にピッタリです",
@@ -204,6 +206,8 @@ export const translations = {
             meangurls_features: "Features: Products, Pricing, Contact",
             view_insta: "View Instagram",
             view_site: "View Website",
+            cta_text: "Your Instagram can become a beautiful website like this too",
+            cta_button: "Create Free Preview",
         },
         target: {
             title: "Perfect for...",
@@ -340,6 +344,8 @@ export const translations = {
             meangurls_features: "ฟีเจอร์: รายการสินค้า, ราคา, ติดต่อ",
             view_insta: "ดู Instagram",
             view_site: "ดูเว็บไซต์",
+            cta_text: "Instagram ของคุณก็สามารถกลายเป็นเว็บไซต์สวยๆ แบบนี้ได้",
+            cta_button: "สร้างพรีวิวฟรี",
         },
         target: {
             title: "เหมาะสำหรับ...",
