@@ -53,10 +53,10 @@ export const translations = {
         },
         portfolio: {
             title: "制作実績",
-            subtitle: "インスタグラムのアカウントから、このようなホームページが自動生成されます。",
+            subtitle: "インスタグラムのアカウントから、このようなホームページが生成されます。",
             tebura_category: "Webサービス",
             tebura_title: "てぶらホームページ",
-            tebura_desc: "インスタから自動生成されたLP",
+            tebura_desc: "インスタから生成されたLP",
             tebura_period: "制作期間：24時間以内",
             tebura_plan: "プラン：買い切りプラン（5,000円）",
             tebura_features: "特徴：料金プラン、FAQ、お問い合わせフォームを完備",
