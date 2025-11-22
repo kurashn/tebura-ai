@@ -90,7 +90,7 @@ const Hero = () => {
 
                                 {/* Instagram Header */}
                                 <div className="h-12 border-b border-gray-100 flex items-center justify-between px-4 bg-white">
-                                    <div className="font-bold text-text text-sm">tebura_ai_hp</div>
+                                    <div className="font-bold text-text text-sm">tebura_hp</div>
                                     <div className="flex gap-3">
                                         <div className="w-5 h-5 bg-gray-200 rounded-full"></div>
                                         <div className="w-5 h-5 bg-gray-200 rounded-full"></div>
@@ -119,7 +119,7 @@ const Hero = () => {
                                         </div>
                                     </div>
                                     <div className="space-y-1 mb-4 px-1 text-xs text-text">
-                                        <div className="font-bold">てぶらAIホームページ | インスタHP作成</div>
+                                        <div className="font-bold">てぶらホームページ | インスタHP作成</div>
                                         <div className="text-text/80">たった1日でインスタがHPに早変わり✨</div>
                                         <div className="text-text/80">PC操作不要！スマホだけで完結📱</div>
                                         <div className="text-text/80">月額980円〜で自分だけの公式サイトを👇</div>
