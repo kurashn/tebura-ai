@@ -7,11 +7,11 @@ const Header = () => {
         <header className="w-full py-4 px-6 md:px-12 bg-background/80 backdrop-blur-sm sticky top-0 z-50">
             <div className="max-w-[1200px] mx-auto flex justify-between items-center">
                 <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 flex items-center justify-center">
-                        <img src="/teburakun.png" alt="てぶらAIロゴ" className="w-full h-full object-contain drop-shadow-md" />
+                    <div className="w-10 h-10">
+                        <img src="/teburakun.png" alt="てぶらHPロゴ" className="w-full h-full object-contain drop-shadow-md" />
                     </div>
-                    <span className="font-bold text-text text-lg tracking-tight">
-                        Tebura AI
+                    <span className="font-bold text-xl text-text tracking-tight">
+                        Tebura HP
                     </span>
                 </div>
 

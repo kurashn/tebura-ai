@@ -31,7 +31,7 @@ export const translations = {
             card_3_title: "インスタはあるけど...",
             card_3_text: "インスタのプロフィールだけじゃ\n信頼感が足りない気がする。\nでもHPまで手が回らない...",
             solution_title: "その悩み、",
-            solution_highlight: "「てぶらAI」",
+            solution_highlight: "「てぶらHP」",
             solution_text: "が解決します。",
         },
         features: {
@@ -127,7 +127,7 @@ export const translations = {
             text_2: "あなたのインスタグラム資産を、最大限に活用しましょう。",
             cta_bubble: "\\ LINEで送るだけ！まずは完成品を見てみる /",
             cta_button: "👉 公式LINEを友だち追加して依頼する",
-            copyright: "Tebura AI Homepage. All rights reserved.",
+            copyright: "Tebura HP. All rights reserved.",
         }
     },
     en: {
@@ -162,7 +162,7 @@ export const translations = {
             card_3_title: "Have Instagram but...",
             card_3_text: "Just a profile feels unprofessional.\nBut I can't manage a full website...",
             solution_title: "Your solution is",
-            solution_highlight: "Tebura AI",
+            solution_highlight: "Tebura HP",
             solution_text: "",
         },
         features: {
@@ -257,7 +257,7 @@ export const translations = {
             text_2: "Maximize your Instagram assets now.",
             cta_bubble: "\\ Just send via LINE! See your preview /",
             cta_button: "👉 Add Friend & Request",
-            copyright: "Tebura AI Homepage. All rights reserved.",
+            copyright: "Tebura HP. All rights reserved.",
         }
     },
     th: {
@@ -292,7 +292,7 @@ export const translations = {
             card_3_title: "มี IG อยู่แล้วแต่...",
             card_3_text: "แค่โปรไฟล์ IG ดูไม่ค่อยน่าเชื่อถือ\nแต่จะทำเว็บเต็มรูปแบบก็ไม่ไหว...",
             solution_title: "ปัญหาเหล่านั้น",
-            solution_highlight: "Tebura AI",
+            solution_highlight: "Tebura HP",
             solution_text: "ช่วยคุณได้",
         },
         features: {
@@ -387,7 +387,7 @@ export const translations = {
             text_2: "ใช้ประโยชน์จาก Instagram ของคุณให้คุ้มค่าที่สุด",
             cta_bubble: "\\ แค่ส่ง LINE! ดูพรีวิวก่อนได้เลย /",
             cta_button: "👉 เพิ่มเพื่อนและสั่งทำ",
-            copyright: "Tebura AI Homepage. All rights reserved.",
+            copyright: "Tebura HP. All rights reserved.",
         }
     }
 };

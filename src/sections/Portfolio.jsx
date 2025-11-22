@@ -19,7 +19,7 @@ const Portfolio = () => {
                     </div>
                 </FadeIn>
 
-                {/* Example: Tebura AI */}
+                {/* Example: Tebura HP */}
                 <FadeIn delay={0.2}>
                     <div className="bg-accent/10 rounded-[2.5rem] p-8 md:p-12">
                         <div className="grid md:grid-cols-2 gap-8 items-center">
