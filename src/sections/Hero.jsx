@@ -106,15 +106,15 @@ const Hero = () => {
                                         <div className="flex-1 flex justify-around">
                                             <div className="flex flex-col items-center">
                                                 <div className="font-bold text-sm text-text">42</div>
-                                                <div className="text-[10px] text-gray-400">Posts</div>
+                                                <div className="text-[10px] text-gray-400">{t('hero.ig_posts')}</div>
                                             </div>
                                             <div className="flex flex-col items-center">
                                                 <div className="font-bold text-sm text-text">1.2k</div>
-                                                <div className="text-[10px] text-gray-400">Followers</div>
+                                                <div className="text-[10px] text-gray-400">{t('hero.ig_followers')}</div>
                                             </div>
                                             <div className="flex flex-col items-center">
                                                 <div className="font-bold text-sm text-text">89</div>
-                                                <div className="text-[10px] text-gray-400">Following</div>
+                                                <div className="text-[10px] text-gray-400">{t('hero.ig_following')}</div>
                                             </div>
                                         </div>
                                     </div>
@@ -128,8 +128,8 @@ const Hero = () => {
 
                                     {/* Action Buttons */}
                                     <div className="flex gap-2 mb-4">
-                                        <div className="flex-1 h-7 bg-primary text-white text-xs font-bold rounded flex items-center justify-center">Follow</div>
-                                        <div className="flex-1 h-7 bg-gray-100 text-text text-xs font-bold rounded flex items-center justify-center">Message</div>
+                                        <div className="flex-1 h-7 bg-primary text-white text-xs font-bold rounded flex items-center justify-center">{t('hero.ig_follow_button')}</div>
+                                        <div className="flex-1 h-7 bg-gray-100 text-text text-xs font-bold rounded flex items-center justify-center">{t('hero.ig_message_button')}</div>
                                     </div>
 
                                     {/* Story Highlights */}
