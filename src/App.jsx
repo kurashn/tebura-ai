@@ -7,11 +7,13 @@ import Home from './pages/Home';
 import Legal from './pages/Legal';
 import Terms from './pages/Terms';
 import ScrollToTop from './components/ScrollToTop';
+import BackToTopButton from './components/BackToTopButton';
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      <BackToTopButton />
       <div className="font-sans text-text bg-background min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
