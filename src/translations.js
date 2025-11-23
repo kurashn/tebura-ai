@@ -19,7 +19,7 @@ export const translations = {
             cta_note: "※ まずは完成イメージを無料で確認できます",
             feature_pc: "PC不要",
             feature_delivery: "スピード納品",
-            feature_revision: "修正無料",
+            feature_revision: "低価格・高品質",
             // Instagram Mock UI
             ig_posts: "投稿",
             ig_followers: "フォロワー",
@@ -169,8 +169,8 @@ export const translations = {
             cta_free: "Free Consultation",
             cta_note: "※ Preview your site for free",
             feature_pc: "No PC Needed",
-            feature_delivery: "Same Day",
-            feature_revision: "Free Edits",
+            feature_delivery: "Fast Delivery",
+            feature_revision: "High Quality & Affordable",
             // Instagram Mock UI
             ig_posts: "Posts",
             ig_followers: "Followers",
@@ -319,8 +319,8 @@ export const translations = {
             cta_free: "ปรึกษาฟรี",
             cta_note: "※ ดูตัวอย่างเว็บไซต์ฟรีก่อนตัดสินใจ",
             feature_pc: "ไม่ต้องใช้คอมพิวเตอร์",
-            feature_delivery: "ส่งมอบวันเดียว",
-            feature_revision: "แก้ไขฟรี",
+            feature_delivery: "ส่งงานไว",
+            feature_revision: "คุณภาพสูง ราคาจับต้องได้",
             // Instagram Mock UI
             ig_posts: "โพสต์",
             ig_followers: "ผู้ติดตาม",
