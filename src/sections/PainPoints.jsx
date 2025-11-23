@@ -61,7 +61,7 @@ const PainPoints = () => {
                 <FadeIn delay={0.4}>
                     <div className="text-center mt-16">
                         <p className="text-xl md:text-2xl font-bold text-text">
-                            {t('painpoints.solution_title')} <span className="text-primary text-3xl md:text-4xl mx-2">{t('painpoints.solution_highlight')}</span> {t('painpoints.solution_text')}
+                            {t('painpoints.solution_title')} <span className="text-primary text-3xl md:text-4xl mx-2 whitespace-nowrap">{t('painpoints.solution_highlight')}</span> {t('painpoints.solution_text')}
                         </p>
                     </div>
                 </FadeIn>
