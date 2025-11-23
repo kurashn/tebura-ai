@@ -18,7 +18,7 @@ const Header = () => {
 
                 <div className="flex items-center gap-4">
                     {/* Language Switcher */}
-                    <div className="flex bg-white/50 rounded-full p-1 border border-primary/20">
+                    <div className="flex flex-col md:flex-row bg-white/50 rounded-full p-1 border border-primary/20">
                         <button
                             onClick={() => setLanguage('ja')}
                             className={`px-3 py-1 rounded-full text-xs font-bold transition-all ${language === 'ja' ? 'bg-primary text-white shadow-sm' : 'text-text/60 hover:text-primary'}`}
