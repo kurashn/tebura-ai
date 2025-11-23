@@ -21,7 +21,10 @@ const Hero = () => {
                     <FadeIn delay={0.2}>
                         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight md:leading-snug tracking-tight mb-6 md:mb-8 text-text">
                             {t('hero.headline_1')}<br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-600 whitespace-nowrap">{t('hero.headline_2')}</span>
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-600">
+                                {t('hero.headline_2_part1')}<br className="md:hidden" />
+                                {t('hero.headline_2_part2')}
+                            </span>
                         </h1>
                     </FadeIn>
 

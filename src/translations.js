@@ -11,6 +11,8 @@ export const translations = {
             badge: "✨ 通常 30,000円 → 5,000円 (モニター価格)",
             headline_1: "あなたのインスタが、",
             headline_2: "AI×プロの技術で公式サイトに。",
+            headline_2_part1: "AI×プロの技術で",
+            headline_2_part2: "公式サイトに。",
             subtext_1: "必要なのは、あなたの「Instagramアカウント」だけ。",
             subtext_2: "インスタからAI活用でプロが格安制作。\"最短3日\"で完結。",
             subtext_3: "難しい操作もデザインも一切不要です。",
