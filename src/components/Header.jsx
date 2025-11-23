@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 
 const Header = () => {
@@ -6,14 +7,14 @@ const Header = () => {
     return (
         <header className="w-full py-4 px-6 md:px-12 bg-background/80 backdrop-blur-sm sticky top-0 z-50">
             <div className="max-w-[1200px] mx-auto flex justify-between items-center">
-                <div className="flex items-center gap-3">
+                <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                     <div className="w-10 h-10">
                         <img src="/teburakun.png" alt="てぶらHPロゴ" className="w-full h-full object-contain drop-shadow-md" />
                     </div>
                     <span className="font-bold text-xl text-text tracking-tight">
                         Tebura HP
                     </span>
-                </div>
+                </Link>
 
                 <div className="flex items-center gap-4">
                     {/* Language Switcher */}
@@ -41,10 +42,11 @@ const Header = () => {
                     {/* CTA */}
                     <nav className="hidden md:block">
                         <a
-                            href="#contact"
-                            className="bg-primary text-white px-6 py-2 rounded-full font-bold hover:bg-opacity-90 transition-all shadow-sm"
-                        >
-                            {t('header.contact')}
+                            href="https://lin.ee/9ZFmmDS"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-white text-primary text-lg md:text-xl lg:text-2xl font-bold py-5 md:py-4 px-10 md:px-12 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all min-h-[56px] flex items-center justify-center w-full max-w-md"
+                        >{t('header.contact')}
                         </a>
                     </nav>
                 </div>

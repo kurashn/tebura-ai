@@ -172,7 +172,9 @@ const Portfolio = () => {
                             {t('portfolio.cta_text')}
                         </p>
                         <a
-                            href="#contact"
+                            href="https://lin.ee/9ZFmmDS"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="inline-block bg-cta text-white px-8 py-4 rounded-2xl font-bold text-lg hover:opacity-90 transition-opacity shadow-lg"
                         >
                             {t('portfolio.cta_button')}

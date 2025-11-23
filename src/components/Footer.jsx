@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
 import FadeIn from './FadeIn';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -33,7 +34,9 @@ const Footer = () => {
                                 {t('footer.cta_bubble')}
                             </div>
                             <a
-                                href="#contact"
+                                href="https://lin.ee/9ZFmmDS"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="bg-white text-primary text-lg md:text-xl lg:text-2xl font-bold py-5 md:py-4 px-10 md:px-12 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all min-h-[56px] flex items-center justify-center w-full max-w-md"
                             >
                                 {t('footer.cta_button')}
@@ -42,8 +45,15 @@ const Footer = () => {
                     </div>
                 </FadeIn>
 
-                <div className="mt-16 md:mt-20 pt-6 md:pt-8 border-t border-white/20 text-center text-white/60 text-xs md:text-sm px-4">
-                    &copy; {new Date().getFullYear()} {t('footer.copyright')}
+                <div className="mt-16 md:mt-20 pt-6 md:pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center gap-4 text-white/60 text-xs md:text-sm px-4">
+                    <div className="flex gap-4 md:gap-6">
+                        <Link to="/legal" className="hover:text-white transition-colors">特定商取引法に基づく表記</Link>
+                        <Link to="/terms" className="hover:text-white transition-colors">利用規約</Link>
+                    </div>
+                    <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+                        <span>&copy; {new Date().getFullYear()} {t('footer.copyright')}</span>
+                        <span className="opacity-50">Powered by Tebura HP</span>
+                    </div>
                 </div>
             </div>
         </footer>

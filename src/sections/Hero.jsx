@@ -36,7 +36,9 @@ const Hero = () => {
                     <FadeIn delay={0.4}>
                         <div className="flex flex-col gap-4 md:gap-5 mb-8 md:mb-10">
                             <motion.a
-                                href="#contact"
+                                href="https://lin.ee/9ZFmmDS"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 whileHover={{ scale: 1.02, translateY: -2 }}
                                 whileTap={{ scale: 0.98 }}
                                 className="w-full md:w-auto bg-gradient-to-r from-cta to-emerald-500 text-white text-center py-5 md:py-5 px-8 md:px-10 rounded-2xl font-bold text-base md:text-lg lg:text-xl shadow-xl hover:shadow-2xl transition-all flex items-center justify-center gap-2 md:gap-3 group relative overflow-hidden min-h-[56px]"

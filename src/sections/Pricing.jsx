@@ -57,7 +57,7 @@ const Pricing = () => {
                                 </li>
                             </ul>
 
-                            <a href="#contact" className="block w-full bg-gray-100 text-text text-center py-4 md:py-3 rounded-xl font-bold hover:bg-gray-200 transition-colors min-h-[48px] flex items-center justify-center">
+                            <a href="https://lin.ee/9ZFmmDS" target="_blank" rel="noopener noreferrer" className="block w-full bg-gray-100 text-text text-center py-4 md:py-3 rounded-xl font-bold hover:bg-gray-200 transition-colors min-h-[48px] flex items-center justify-center">
                                 {t('pricing.cta_button')}
                             </a>
                         </div>
@@ -90,7 +90,7 @@ const Pricing = () => {
                                 </li>
                             </ul>
 
-                            <a href="#contact" className="block w-full bg-primary text-white text-center py-4 md:py-3 rounded-xl font-bold hover:opacity-90 transition-opacity min-h-[48px] flex items-center justify-center">
+                            <a href="https://lin.ee/9ZFmmDS" target="_blank" rel="noopener noreferrer" className="block w-full bg-primary text-white text-center py-4 md:py-3 rounded-xl font-bold hover:opacity-90 transition-opacity min-h-[48px] flex items-center justify-center">
                                 {t('pricing.cta_button')}
                             </a>
                         </div>
