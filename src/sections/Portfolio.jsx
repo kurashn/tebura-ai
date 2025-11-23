@@ -42,12 +42,14 @@ const Portfolio = () => {
                                             <span className="text-text/80">{t('portfolio.tebura_period')}</span>
                                         </div>
                                     </div>
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                                        <div>
-                                            <span className="text-text/80">{t('portfolio.tebura_plan')}</span>
+                                    {t('portfolio.tebura_plan') && (
+                                        <div className="flex items-start gap-3">
+                                            <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                                            <div>
+                                                <span className="text-text/80">{t('portfolio.tebura_plan')}</span>
+                                            </div>
                                         </div>
-                                    </div>
+                                    )}
                                     <div className="flex items-start gap-3">
                                         <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
                                         <div>
