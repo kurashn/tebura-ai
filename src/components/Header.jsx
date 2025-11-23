@@ -12,7 +12,7 @@ const Header = () => {
                         <img src="/teburakun.png" alt="てぶらHPロゴ" className="w-full h-full object-contain drop-shadow-md" />
                     </div>
                     <span className="font-bold text-xl text-text tracking-tight">
-                        Tebura HP
+                        Teburaホームページ
                     </span>
                 </Link>
 

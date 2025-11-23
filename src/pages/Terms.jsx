@@ -11,7 +11,7 @@ const Terms = () => {
                     <h1 className="text-2xl md:text-3xl font-bold mb-8 text-text text-center">利用規約</h1>
 
                     <div className="space-y-6 text-sm md:text-base text-text/80">
-                        <p>この利用規約（以下「本規約」といいます）は、倉林 駿（以下「運営者」といいます）が提供するWebサイト制作・運用サービス「Tebura HP」（以下「本サービス」といいます）の利用条件を定めるものです。</p>
+                        <p>この利用規約（以下「本規約」といいます）は、倉林 駿（以下「運営者」といいます）が提供するWebサイト制作・運用サービス「Teburaホームページ」（以下「本サービス」といいます）の利用条件を定めるものです。</p>
 
                         <h2 className="font-bold text-lg text-text mt-8 mb-2">第1条（適用）</h2>
                         <ol className="list-decimal pl-5 space-y-1">

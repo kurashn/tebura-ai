@@ -14,7 +14,7 @@ const Pricing = () => {
                             {t('pricing.title_1')}<br className="md:hidden" />{t('pricing.title_2')}
                         </h2>
                         <p className="text-sm md:text-base text-text/70 px-4">
-                            {t('pricing.subtitle_1')}<br className="md:hidden" />{t('pricing.subtitle_2')}
+                            {t('pricing.subtitle_2')}
                         </p>
                     </div>
                 </FadeIn>

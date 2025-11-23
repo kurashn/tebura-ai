@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
                         <span>&copy; {new Date().getFullYear()} {t('footer.copyright')}</span>
-                        <span className="opacity-50">Powered by Tebura HP</span>
+                        <span className="opacity-50">Powered by Teburaホームページ</span>
                     </div>
                 </div>
             </div>
