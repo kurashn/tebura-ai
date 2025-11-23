@@ -6,10 +6,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Legal from './pages/Legal';
 import Terms from './pages/Terms';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="font-sans text-text bg-background min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
