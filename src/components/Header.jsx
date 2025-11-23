@@ -31,12 +31,6 @@ const Header = () => {
                         >
                             EN
                         </button>
-                        <button
-                            onClick={() => setLanguage('th')}
-                            className={`px-3 py-1 rounded-full text-xs font-bold transition-all ${language === 'th' ? 'bg-primary text-white shadow-sm' : 'text-text/60 hover:text-primary'}`}
-                        >
-                            TH
-                        </button>
                     </div>
 
                     {/* CTA */}
