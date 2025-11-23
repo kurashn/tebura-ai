@@ -121,8 +121,8 @@ const Hero = () => {
                                         </div>
                                     </div>
                                     <div className="space-y-1 mb-4 px-1 text-xs text-text">
-                                        <div className="font-bold">てぶらホームページ | インスタHP作成</div>
-                                        <div className="text-text/80">たった1日でインスタがHPに早変わり✨</div>
+                                        <div className="font-bold">てぶらホームページ | インスタHP制作</div>
+                                        <div className="text-text/80">最短3日でインスタがHPに早変わり✨</div>
                                         <div className="text-text/80">PC操作不要！スマホだけで完結📱</div>
                                         <div className="text-text/80">月額980円〜で自分だけの公式サイトを👇</div>
                                         <div className="mt-1 text-primary font-bold">tebura-ai.com</div>
