@@ -58,7 +58,7 @@ const Portfolio = () => {
 
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <a
-                                        href="https://www.instagram.com/tebura_ai_hp/"
+                                        href="https://www.instagram.com/tebura_hp/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-xl font-bold hover:opacity-90 transition-opacity"
