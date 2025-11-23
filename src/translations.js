@@ -136,6 +136,18 @@ export const translations = {
             cta_bubble: "\\ LINEで送るだけ！まずは完成品を見てみる /",
             cta_button: "👉 公式LINEを友だち追加して依頼する",
             copyright: "Tebura HP. All rights reserved.",
+        },
+        contact: {
+            title: "お問い合わせ",
+            subtitle: "ご質問やご相談は、お気軽に下記フォームよりお問い合わせください。",
+            name_label: "お名前",
+            name_placeholder: "山田 太郎",
+            email_label: "メールアドレス",
+            email_placeholder: "example@email.com",
+            message_label: "お問い合わせ内容",
+            message_placeholder: "ご質問内容をご記入ください",
+            submit_button: "送信する",
+            success_message: "お問い合わせありがとうございます。内容を確認次第、ご連絡いたします。",
         }
     },
     en: {
@@ -274,6 +286,18 @@ export const translations = {
             cta_bubble: "\\ Just send via LINE! See your preview /",
             cta_button: "👉 Add Friend & Request",
             copyright: "Tebura HP. All rights reserved.",
+        },
+        contact: {
+            title: "Contact Us",
+            subtitle: "Please feel free to contact us using the form below.",
+            name_label: "Name",
+            name_placeholder: "John Doe",
+            email_label: "Email",
+            email_placeholder: "example@email.com",
+            message_label: "Message",
+            message_placeholder: "How can we help you?",
+            submit_button: "Send Message",
+            success_message: "Thank you for your message. We will get back to you shortly.",
         }
     },
     th: {
@@ -412,6 +436,18 @@ export const translations = {
             cta_bubble: "\\ แค่ส่ง LINE! ดูพรีวิวก่อนได้เลย /",
             cta_button: "👉 เพิ่มเพื่อนและสั่งทำ",
             copyright: "Tebura HP. All rights reserved.",
+        },
+        contact: {
+            title: "ติดต่อเรา",
+            subtitle: "สอบถามข้อมูลเพิ่มเติมได้ที่แบบฟอร์มด้านล่าง",
+            name_label: "ชื่อ",
+            name_placeholder: "สมชาย ใจดี",
+            email_label: "อีเมล",
+            email_placeholder: "example@email.com",
+            message_label: "ข้อความ",
+            message_placeholder: "พิมพ์ข้อความของคุณที่นี่",
+            submit_button: "ส่งข้อความ",
+            success_message: "ขอบคุณสำหรับข้อความ เราจะติดต่อกลับโดยเร็วที่สุด",
         }
     }
 };

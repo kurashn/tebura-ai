@@ -11,6 +11,8 @@ import Portfolio from './sections/Portfolio';
 import Pricing from './sections/Pricing';
 import FAQ from './sections/FAQ';
 
+import Contact from './sections/Contact';
+
 function App() {
   return (
     <div className="font-sans text-text bg-background min-h-screen flex flex-col">
@@ -24,6 +26,7 @@ function App() {
         <Portfolio />
         <Pricing />
         <FAQ />
+        <Contact />
       </main>
       <Footer />
     </div>
