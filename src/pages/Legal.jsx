@@ -61,7 +61,7 @@ const Legal = () => {
                                     <th className="py-4 pr-8 font-bold text-text whitespace-nowrap align-top">引渡し時期</th>
                                     <td className="py-4 text-text/80">
                                         決済完了後、システムおよび担当者による最終確認を経て、本番環境としての利用権限を付与し納品とします。<br />
-                                        （通常、決済後24時間以内）
+                                        （通常、決済後3営業日以内）
                                     </td>
                                 </tr>
                                 <tr>
