@@ -35,26 +35,22 @@ const Portfolio = () => {
                                     {t('portfolio.tebura_desc')}
                                 </p>
 
-                                <div className="space-y-3 mb-6">
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                                        <div>
-                                            <span className="text-text/80">{t('portfolio.tebura_period')}</span>
-                                        </div>
+                                <div className="flex items-start gap-3">
+                                    <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                                    <div>
+                                        <span className="text-text/80">{t('portfolio.tebura_industry')}</span>
                                     </div>
-                                    {t('portfolio.tebura_plan') && (
-                                        <div className="flex items-start gap-3">
-                                            <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                                            <div>
-                                                <span className="text-text/80">{t('portfolio.tebura_plan')}</span>
-                                            </div>
-                                        </div>
-                                    )}
-                                    <div className="flex items-start gap-3">
-                                        <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                                        <div>
-                                            <span className="text-text/80">{t('portfolio.tebura_features')}</span>
-                                        </div>
+                                </div>
+                                <div className="flex items-start gap-3">
+                                    <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                                    <div>
+                                        <span className="text-text/80">{t('portfolio.tebura_period')}</span>
+                                    </div>
+                                </div>
+                                <div className="flex items-start gap-3">
+                                    <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                                    <div>
+                                        <span className="text-text/80">{t('portfolio.tebura_features')}</span>
                                     </div>
                                 </div>
 
